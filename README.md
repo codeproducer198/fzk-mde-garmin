@@ -6,7 +6,7 @@ fzk-mde-garmin
 Branch fenix
 ------------
 
-**This branch "fenix" is optimized for Garmin Fenix 6 pro's and based on the great work of [Cryptomilks FZK pull request](https://github.com/cryptomilk/fzk-mde-garmin).**
+**This branch _fenix_ is optimized for Garmin Fenix 6 pro's and based on the great work of [Cryptomilks FZK pull request](https://github.com/cryptomilk/fzk-mde-garmin).**
 
 General
 -------
@@ -29,6 +29,8 @@ DE:
 
 Build OSM map for Garmin Fenix
 ---------------------------------
+
+Clone the _fenix_ branch with `git clone -b fenix --single-branch https://github.com/codeproducer198/fzk-mde-garmin.git`.
 
 The build is described in the links aboved.
 You can set up a environment with the following commands:
