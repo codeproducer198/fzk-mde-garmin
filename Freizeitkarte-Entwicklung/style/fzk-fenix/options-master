@@ -83,5 +83,6 @@ name_tag = name:de, name:en, name:fr, int_name, name
 # Level 8 - Objekt sichtbar bei Resolution 14:
 #   Fenix     : 30 km
 
-levels = 0:24, 1:22, 2:20, 3:19, 4:18, 5:16
-overview-levels = 6:14, 7:12, 8:11
+# use the fzk original zoom levels. so on level 300/500m summits and huts are shown
+levels = 0:24, 1:23, 2:22, 3:21, 4:20, 5:19, 6:18, 7:17
+overview-levels = 8:16, 9:14, 10:12, 11:11
