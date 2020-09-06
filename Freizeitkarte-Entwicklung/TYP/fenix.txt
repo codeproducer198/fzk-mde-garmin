@@ -8420,7 +8420,7 @@ String2=0x01,Alpine Hut (operated/manned)
 String3=0x02,Berghütte (bewirtschaftet)
 String4=0x04,Alpine Hut (operated/manned)
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#BD0041
 NightcustomColor:#BD0041
@@ -8453,7 +8453,7 @@ String2=0x01,Alpine Hut (self-catering)
 String3=0x02,Berghütte (Selbstversorger)
 String4=0x04,Alpine Hut (self-catering)
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#BD0041
 NightcustomColor:#BD0041
@@ -8486,7 +8486,7 @@ String2=0x01,Basic Hut
 String3=0x02,Basic hut
 String4=0x04,Basic Hut
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#BD0041
 NightcustomColor:#BD0041
@@ -8515,7 +8515,7 @@ String2=0x01,Wilderness hut
 String3=0x02,Wilderness hut
 String4=0x04,Wilderness hut
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#BD0041
 NightcustomColor:#BD0041
@@ -9312,22 +9312,27 @@ String2=0x01,Summit/Peak
 String3=0x02,Gipfel
 String4=0x04,Summit/Peak
 ExtendedLabels=Y
-DayXpm="13 12 2 1"   Colormode=16
-"!	c #e6b522"
+FontStyle=NormalFont
+DaycustomColor:#4C1603
+NightcustomColor:#4C1603
+DayXpm="15 14 2 1"   Colormode=16
+"!	c #7B3000"
 "  	c none"
-"      !      "
-"     !!!     "
-"     !!!     "
-"    !!!!!    "
-"    !!!!!    "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"  !!!!!!!!!  "
-"  !!!!!!!!!  "
-" !!!!!!!!!!! "
-" !!!!!!!!!!! "
-"!!!!!!!!!!!!!"
-;1234567890123
+"       !       "
+"      !!!      "
+"      !!!      "
+"     !!!!!     "
+"     !!!!!     "
+"    !!!!!!!    "
+"    !!!!!!!    "
+"   !!!!!!!!!   "
+"   !!!!!!!!!   "
+"  !!!!!!!!!!!  "
+"  !!!!!!!!!!!  "
+" !!!!!!!!!!!!! "
+" !!!!!!!!!!!!! "
+"!!!!!!!!!!!!!!!"
+;123456789012345
 [end]
 
 
@@ -9336,10 +9341,10 @@ Type=0x066
 SubType=0x17
 String1=0x00,Pass
 String2=0x01,Pass
-String3=0x02,Pass
+String3=0x02,Bergpass
 String4=0x04,Pass
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#006541
 NightcustomColor:#006541
@@ -9410,7 +9415,7 @@ String2=0x01,Saddle
 String3=0x02,Joch, Sattel, Scharte
 String4=0x04,Saddle
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=DayAndNight
 DaycustomColor:#006541
 NightcustomColor:#006541
